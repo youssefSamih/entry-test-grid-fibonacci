@@ -1,46 +1,88 @@
-# Getting Started with Create React App
+# Grid Fibonacci Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app is a Fibonacci game on a table. You should on each that you want and you can create a Fibonacci pattern.
+When you click on each cell you should expect to see the cell increase the number by 1 and change the background color to Yellow.
+If you find 5 successful Fibonacci patterns, the cells' backgrounds will change to Green, then after 2 seconds they will be empty and will change to 0.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+You can see the demo after running project in local machine at:
 
-### `npm start`
+https://localhost:3000/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+I started to work on this project with [Create React App](https://github.com/facebook/create-react-app)
 
-### `npm test`
+to install packages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm:
 
-### `npm run build`
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+yarn:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+yarn
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment
 
-### `npm run eject`
+To Start this project run
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+npm:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+yarn:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+yarn start
+```
 
-## Learn More
+To build the project run:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run build
+```
+
+yarn:
+
+```bash
+yarn build
+```
+
+## Testing
+
+npm:
+
+```bash
+npm run test
+```
+
+yarn:
+
+```bash
+yarn test
+```
+
+## Tech Stack
+
+**Client:** React, Typescript, TailwindCSS
+
+**Tests:** React testing library, Enzyme
+
+## Tasks list
+
+- [x] Create function for create a matrix
+- [x] Enable reset the game
+- [x] Change cell backgroud color to Yellow when click
+- [x] Change 5 cells backgroudcolors to Green when a Fibonacci pattern found
+- [x] Clean the cells after finding the pattern
+- [x] Create function to check if a pattern found from left side

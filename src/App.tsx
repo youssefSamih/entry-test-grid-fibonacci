@@ -14,7 +14,7 @@ import "./App.css"
 
 // ******* Constants
 
-const GRID_SIZE = 5
+const GRID_SIZE = 50
 
 // ******* Components
 
