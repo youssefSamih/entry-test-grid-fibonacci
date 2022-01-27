@@ -1,0 +1,1411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test expect the game works after reset  1`] = `
+<div
+  className="py-10 main"
+>
+  <div
+    className="container flex flex-col justify-center items-center mx-auto w-full"
+  >
+    <Title
+      className="m-10 font-mono text-5xl"
+      text="Grid game"
+    />
+    <Button
+      className="my-10 mx-5 text-3xl border"
+      id="reset"
+      onClick={[Function]}
+      text="Reset grid"
+      variant="white"
+    />
+  </div>
+  <div
+    className="flex justify-center items-center my-14 w-full h-full"
+  >
+    <table
+      className="text-white border"
+    >
+      <tbody>
+        <tr
+          className="p-3"
+          key="0"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-0"
+            id="cell-0-0"
+            key="0"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-1"
+            id="cell-0-1"
+            key="1"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-2"
+            id="cell-0-2"
+            key="2"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-3"
+            id="cell-0-3"
+            key="3"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-4"
+            id="cell-0-4"
+            key="4"
+            onClick={[Function]}
+          >
+            1
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="1"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-0"
+            id="cell-1-0"
+            key="5"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-1"
+            id="cell-1-1"
+            key="6"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-2"
+            id="cell-1-2"
+            key="7"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-3"
+            id="cell-1-3"
+            key="8"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-4"
+            id="cell-1-4"
+            key="9"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="2"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-0"
+            id="cell-2-0"
+            key="10"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-1"
+            id="cell-2-1"
+            key="11"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-2"
+            id="cell-2-2"
+            key="12"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-3"
+            id="cell-2-3"
+            key="13"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-4"
+            id="cell-2-4"
+            key="14"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="3"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-0"
+            id="cell-3-0"
+            key="15"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-1"
+            id="cell-3-1"
+            key="16"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-2"
+            id="cell-3-2"
+            key="17"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-3"
+            id="cell-3-3"
+            key="18"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-4"
+            id="cell-3-4"
+            key="19"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="4"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-0"
+            id="cell-4-0"
+            key="20"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-1"
+            id="cell-4-1"
+            key="21"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-2"
+            id="cell-4-2"
+            key="22"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-3"
+            id="cell-4-3"
+            key="23"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-4"
+            id="cell-4-4"
+            key="24"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`snapshot test snapshot test Home page 1`] = `
+<div
+  className="py-10 main"
+>
+  <div
+    className="container flex flex-col justify-center items-center mx-auto w-full"
+  >
+    <Title
+      className="m-10 font-mono text-5xl"
+      text="Grid game"
+    />
+    <Button
+      className="my-10 mx-5 text-3xl border"
+      id="reset"
+      onClick={[Function]}
+      text="Reset grid"
+      variant="white"
+    />
+  </div>
+  <div
+    className="flex justify-center items-center my-14 w-full h-full"
+  >
+    <table
+      className="text-white border"
+    >
+      <tbody>
+        <tr
+          className="p-3"
+          key="0"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-0"
+            id="cell-0-0"
+            key="0"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-1"
+            id="cell-0-1"
+            key="1"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-2"
+            id="cell-0-2"
+            key="2"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-3"
+            id="cell-0-3"
+            key="3"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-4"
+            id="cell-0-4"
+            key="4"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="1"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-0"
+            id="cell-1-0"
+            key="5"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-1"
+            id="cell-1-1"
+            key="6"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-2"
+            id="cell-1-2"
+            key="7"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-3"
+            id="cell-1-3"
+            key="8"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-4"
+            id="cell-1-4"
+            key="9"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="2"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-0"
+            id="cell-2-0"
+            key="10"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-1"
+            id="cell-2-1"
+            key="11"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-2"
+            id="cell-2-2"
+            key="12"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-3"
+            id="cell-2-3"
+            key="13"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-4"
+            id="cell-2-4"
+            key="14"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="3"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-0"
+            id="cell-3-0"
+            key="15"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-1"
+            id="cell-3-1"
+            key="16"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-2"
+            id="cell-3-2"
+            key="17"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-3"
+            id="cell-3-3"
+            key="18"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-4"
+            id="cell-3-4"
+            key="19"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="4"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-0"
+            id="cell-4-0"
+            key="20"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-1"
+            id="cell-4-1"
+            key="21"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-2"
+            id="cell-4-2"
+            key="22"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-3"
+            id="cell-4-3"
+            key="23"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-4"
+            id="cell-4-4"
+            key="24"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`snapshot test test click on 5 cell and make it green and expect to be empty 1`] = `
+<div
+  className="py-10 main"
+>
+  <div
+    className="container flex flex-col justify-center items-center mx-auto w-full"
+  >
+    <Title
+      className="m-10 font-mono text-5xl"
+      text="Grid game"
+    />
+    <Button
+      className="my-10 mx-5 text-3xl border"
+      id="reset"
+      onClick={[Function]}
+      text="Reset grid"
+      variant="white"
+    />
+  </div>
+  <div
+    className="flex justify-center items-center my-14 w-full h-full"
+  >
+    <table
+      className="text-white border"
+    >
+      <tbody>
+        <tr
+          className="p-3"
+          key="0"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-0"
+            id="cell-0-0"
+            key="0"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-1"
+            id="cell-0-1"
+            key="1"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-2"
+            id="cell-0-2"
+            key="2"
+            onClick={[Function]}
+          >
+            2
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-3"
+            id="cell-0-3"
+            key="3"
+            onClick={[Function]}
+          >
+            3
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-4"
+            id="cell-0-4"
+            key="4"
+            onClick={[Function]}
+          >
+            5
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="1"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-0"
+            id="cell-1-0"
+            key="5"
+            onClick={[Function]}
+          >
+            8
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-1"
+            id="cell-1-1"
+            key="6"
+            onClick={[Function]}
+          >
+            7
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-2"
+            id="cell-1-2"
+            key="7"
+            onClick={[Function]}
+          >
+            7
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-3"
+            id="cell-1-3"
+            key="8"
+            onClick={[Function]}
+          >
+            7
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-4"
+            id="cell-1-4"
+            key="9"
+            onClick={[Function]}
+          >
+            7
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="2"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-0"
+            id="cell-2-0"
+            key="10"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-1"
+            id="cell-2-1"
+            key="11"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-2"
+            id="cell-2-2"
+            key="12"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-3"
+            id="cell-2-3"
+            key="13"
+            onClick={[Function]}
+          >
+            2
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-4"
+            id="cell-2-4"
+            key="14"
+            onClick={[Function]}
+          >
+            4
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="3"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-0"
+            id="cell-3-0"
+            key="15"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-1"
+            id="cell-3-1"
+            key="16"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-2"
+            id="cell-3-2"
+            key="17"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-3"
+            id="cell-3-3"
+            key="18"
+            onClick={[Function]}
+          >
+            2
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-4"
+            id="cell-3-4"
+            key="19"
+            onClick={[Function]}
+          >
+            4
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="4"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-0"
+            id="cell-4-0"
+            key="20"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-1"
+            id="cell-4-1"
+            key="21"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-2"
+            id="cell-4-2"
+            key="22"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-3"
+            id="cell-4-3"
+            key="23"
+            onClick={[Function]}
+          >
+            2
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-4"
+            id="cell-4-4"
+            key="24"
+            onClick={[Function]}
+          >
+            4
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`snapshot test test click on one cell and make it yellow 1`] = `
+<div
+  className="py-10 main"
+>
+  <div
+    className="container flex flex-col justify-center items-center mx-auto w-full"
+  >
+    <Title
+      className="m-10 font-mono text-5xl"
+      text="Grid game"
+    />
+    <Button
+      className="my-10 mx-5 text-3xl border"
+      id="reset"
+      onClick={[Function]}
+      text="Reset grid"
+      variant="white"
+    />
+  </div>
+  <div
+    className="flex justify-center items-center my-14 w-full h-full"
+  >
+    <table
+      className="text-white border"
+    >
+      <tbody>
+        <tr
+          className="p-3"
+          key="0"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-0"
+            id="cell-0-0"
+            key="0"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-1"
+            id="cell-0-1"
+            key="1"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-2"
+            id="cell-0-2"
+            key="2"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-3"
+            id="cell-0-3"
+            key="3"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-4"
+            id="cell-0-4"
+            key="4"
+            onClick={[Function]}
+          >
+            1
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="1"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-0"
+            id="cell-1-0"
+            key="5"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-1"
+            id="cell-1-1"
+            key="6"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-2"
+            id="cell-1-2"
+            key="7"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-3"
+            id="cell-1-3"
+            key="8"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-4"
+            id="cell-1-4"
+            key="9"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="2"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-0"
+            id="cell-2-0"
+            key="10"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-1"
+            id="cell-2-1"
+            key="11"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-2"
+            id="cell-2-2"
+            key="12"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-3"
+            id="cell-2-3"
+            key="13"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-4"
+            id="cell-2-4"
+            key="14"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="3"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-0"
+            id="cell-3-0"
+            key="15"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-1"
+            id="cell-3-1"
+            key="16"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-2"
+            id="cell-3-2"
+            key="17"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-3"
+            id="cell-3-3"
+            key="18"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-4"
+            id="cell-3-4"
+            key="19"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="4"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-0"
+            id="cell-4-0"
+            key="20"
+            onClick={[Function]}
+          >
+            1
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-1"
+            id="cell-4-1"
+            key="21"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-2"
+            id="cell-4-2"
+            key="22"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-3"
+            id="cell-4-3"
+            key="23"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-4"
+            id="cell-4-4"
+            key="24"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`snapshot test test click on reset button and expect empty table  1`] = `
+<div
+  className="py-10 main"
+>
+  <div
+    className="container flex flex-col justify-center items-center mx-auto w-full"
+  >
+    <Title
+      className="m-10 font-mono text-5xl"
+      text="Grid game"
+    />
+    <Button
+      className="my-10 mx-5 text-3xl border"
+      id="reset"
+      onClick={[Function]}
+      text="Reset grid"
+      variant="white"
+    />
+  </div>
+  <div
+    className="flex justify-center items-center my-14 w-full h-full"
+  >
+    <table
+      className="text-white border"
+    >
+      <tbody>
+        <tr
+          className="p-3"
+          key="0"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-0"
+            id="cell-0-0"
+            key="0"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-1"
+            id="cell-0-1"
+            key="1"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-2"
+            id="cell-0-2"
+            key="2"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-3"
+            id="cell-0-3"
+            key="3"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-0-4"
+            id="cell-0-4"
+            key="4"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="1"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-0"
+            id="cell-1-0"
+            key="5"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-1"
+            id="cell-1-1"
+            key="6"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-2"
+            id="cell-1-2"
+            key="7"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-3"
+            id="cell-1-3"
+            key="8"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-1-4"
+            id="cell-1-4"
+            key="9"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="2"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-0"
+            id="cell-2-0"
+            key="10"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-1"
+            id="cell-2-1"
+            key="11"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-2"
+            id="cell-2-2"
+            key="12"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-3"
+            id="cell-2-3"
+            key="13"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-2-4"
+            id="cell-2-4"
+            key="14"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="3"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-0"
+            id="cell-3-0"
+            key="15"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-1"
+            id="cell-3-1"
+            key="16"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-2"
+            id="cell-3-2"
+            key="17"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-3"
+            id="cell-3-3"
+            key="18"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-3-4"
+            id="cell-3-4"
+            key="19"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          className="p-3"
+          key="4"
+        >
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-0"
+            id="cell-4-0"
+            key="20"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-1"
+            id="cell-4-1"
+            key="21"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-2"
+            id="cell-4-2"
+            key="22"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-3"
+            id="cell-4-3"
+            key="23"
+            onClick={[Function]}
+          >
+            0
+          </td>
+          <td
+            className="p-10 border cursor-pointer"
+            data-testid="cell-4-4"
+            id="cell-4-4"
+            key="24"
+            onClick={[Function]}
+          >
+            0
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
