@@ -56,7 +56,7 @@ yarn test
 
 - [x] Create function for create a matrix
 - [x] Enable reset the game
-- [x] Change cell backgroud color to Yellow when click
-- [x] Change 5 cells backgroudcolors to Green when a Fibonacci pattern found
+- [x] Change cell background color to Yellow when click
+- [x] Change 5 cells background colors to Green when a pattern found
 - [x] Clean the cells after finding the pattern
 - [x] Create function to check if a pattern found from left side
